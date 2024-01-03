@@ -13,18 +13,20 @@ body{
 
 .header{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     flex: 1 1 auto;
 }
 
 .content{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     flex: 2 1 auto;
 }
 
 .footer{
+    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 70px;
 }
